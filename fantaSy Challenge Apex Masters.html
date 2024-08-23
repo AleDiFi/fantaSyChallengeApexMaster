@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fantaSy Challenge Apex Masters</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #2c3e50; /* Colore azzurro scuro */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header img {
+            max-width: 100px;
+            vertical-align: middle;
+        }
+
+        .banner {
+            background-color: #e74c3c; /* Colore rosso per il banner */
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .tournament-info {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .leagues {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+        .league {
+            padding: 20px;
+            width: 30%;
+            text-align: center;
+            border-radius: 5px;
+            color: white;
+        }
+
+        .league.gold {
+            background-color: #f1c40f; /* Colore giallo per la Lega Oro */
+        }
+
+        .league.silver {
+            background-color: #bdc3c7; /* Colore grigio per la Lega Argento */
+        }
+
+        .league.bronze {
+            background-color: #8e5c42; /* Colore marrone per la Lega Bronzo */
+        }
+
+        .reviews {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #ecf0f1; /* Colore grigio chiaro per le recensioni */
+            border-radius: 5px;
+        }
+
+        .review {
+            margin-bottom: 20px;
+        }
+
+        .review p {
+            margin: 5px 0;
+        }
+
+        .stars {
+            color: #f39c12; /* Colore per le stelle */
+        }
+
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        @media screen and (max-width: 768px) {
+            .leagues {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .league {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="fantasy%20logo.png" alt="Logo fantaSy Challenge">
+        <h1>fantaSy Challenge Apex Masters</h1>
+        <p>Partecipa al torneo con un montepremi di <strong>30.000€</strong>!</p>
+    </div>
+
+    <div class="banner">
+        <p>Se inviti i tuoi amici, bonus fino a 100 euro!</p>
+    </div>
+
+    <div class="container">
+        <div class="tournament-info">
+            <h2>Unisciti a una delle nostre leghe e sfida i migliori!</h2>
+            <p>Scopri le diverse leghe disponibili e scegli quella che fa per te.</p>
+        </div>
+
+        <div class="leagues">
+            <div class="league gold">
+                <h3>Lega Oro</h3>
+                <p>Premi esclusivi per i primi 3 classificati</p>
+            </div>
+
+            <div class="league silver">
+                <h3>Lega Argento</h3>
+                <p>Accessibile a tutti, con premi per i primi 5 classificati</p>
+            </div>
+
+            <div class="league bronze">
+                <h3>Lega Bronzo</h3>
+                <p>Ideale per principianti, premi per i primi 10 classificati</p>
+            </div>
+        </div>
+
+        <div class="reviews">
+            <h2>Recensioni degli utenti</h2>
+            <div class="review">
+                <p><strong>Michael Caporro</strong></p>
+                <p class="stars">★★★★☆</p>
+                <p>"Ottimo torneo, divertente e ben organizzato!"</p>
+            </div>
+            <div class="review">
+                <p><strong>Teresa Missori</strong></p>
+                <p class="stars">★★★★★</p>
+                <p>"Fantastica esperienza! Tornerò sicuramente l'anno prossimo."</p>
+            </div>
+            <div class="review">
+                <p><strong>Floriano Ferrigno</strong></p>
+                <p class="stars">★★★★★</p>
+                <p>"Il miglior torneo di fantacalcio a cui abbia mai partecipato!"</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2024 fantaSy Challenge Apex Masters. Tutti i diritti riservati.</p>
+    </div>
+
+</body>
+</html>
